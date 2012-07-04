@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.colony.configuration.development.main_service_smtp",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Main Service Smtp Development Configuration",
+    "short_name" : "Main Service Smtp Development",
+    "description" : "The main service smtp configuration for the development profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/main_service_smtp/run_mode/development/configuration.py",
+            "configuration/main_service_smtp/run_mode/development/resources.xml"],
+    "extra_resources" : ["configuration/main_service_smtp/run_mode/development/configuration.pyc"]
+}

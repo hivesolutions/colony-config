@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.colony.configuration.integration_run.main_gui",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Main Gui Integration Run Configuration",
+    "short_name" : "Main Gui Integration Run",
+    "description" : "The main gui configuration for the integration run profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/main_gui/run_mode/integration_run/configuration.py",
+            "configuration/main_gui/run_mode/integration_run/resources.xml"],
+    "extra_resources" : ["configuration/main_gui/run_mode/integration_run/configuration.pyc"]
+}

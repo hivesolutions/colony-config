@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.colony.configuration.development.web_mvc_communication_push_apple",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Web Mvc Communication Push Apple Development Configuration",
+    "short_name" : "Web Mvc Communication Push Apple Development",
+    "description" : "The web mvc communication push apple configuration for the development profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/web_mvc_communication_push_apple/run_mode/development/configuration.py",
+            "configuration/web_mvc_communication_push_apple/run_mode/development/resources.xml"],
+    "extra_resources" : ["configuration/web_mvc_communication_push_apple/run_mode/development/configuration.pyc"]
+}

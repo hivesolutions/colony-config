@@ -1,0 +1,16 @@
+{
+    "type" : "container",
+    "sub_type" : "configuration",
+    "id" : "pt.hive.colony.configuration.development.main_console",
+    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "name" : "Main Console Development Configuration",
+    "short_name" : "Main Console Development",
+    "description" : "The main console configuration for the development profile",
+    "version" : "1.0.0",
+    "author" : "Hive Solutions Lda. <development@hive.pt>",
+    "dependencies" : [],
+    "resources" : [
+            "configuration/main_console/run_mode/development/configuration.py",
+            "configuration/main_console/run_mode/development/resources.xml"],
+    "extra_resources" : ["configuration/main_console/run_mode/development/configuration.pyc"]
+}
