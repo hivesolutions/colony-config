@@ -184,7 +184,7 @@ configuration = {
                 "authentication_handler" : "python",
                 "authentication_realm" : "system",
                 "arguments" : {
-                    "file_path" : "%configuration:pt.hive.colony.plugins.authentication.python_handler%/authentication.py"
+                    "file_path" : "%configuration:pt.hive.colony.plugins.authentication.python%/authentication.py"
                 }
             }
         },
@@ -199,7 +199,7 @@ configuration = {
                 "authentication_handler" : "python",
                 "authentication_realm" : "system",
                 "arguments" : {
-                    "file_path" : "%configuration:pt.hive.colony.plugins.authentication.python_handler%/authentication.py"
+                    "file_path" : "%configuration:pt.hive.colony.plugins.authentication.python%/authentication.py"
                 }
             }
         }
