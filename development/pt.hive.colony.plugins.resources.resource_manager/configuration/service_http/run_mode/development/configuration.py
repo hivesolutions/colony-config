@@ -94,7 +94,7 @@ configuration = {
             "/system_information_handler",
             "/system_information",
             "/template_error_handler",
-            "/template_directory_list_handler",
+            "/template_directory_handler",
             "/cgi-bin",
             "/fastcgi-bin",
             "/wsgi-bin",
@@ -137,11 +137,11 @@ configuration = {
                 "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_error}/service_http/template_error/resources"
             }
         },
-        "/template_directory_list_handler" : {
+        "/template_directory_handler" : {
             "handler" : "file",
             "allow_redirection" : False,
             "request_properties" : {
-                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_directory_list}/service_http/template_directory_list/resources"
+                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_directory}/service_http/template_directory/resources"
             }
         },
         "/cgi-bin" : {
