@@ -2,7 +2,7 @@
     "type" : "container",
     "sub_type" : "configuration",
     "id" : "pt.hive.colony.configuration.development.base",
-    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "configuration_id" : "pt.hive.colony.plugins.resources.manager",
     "name" : "Base Development Configuration",
     "short_name" : "Base Development",
     "description" : "The base configuration for the development profile",

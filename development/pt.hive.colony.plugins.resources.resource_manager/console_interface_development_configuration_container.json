@@ -2,7 +2,7 @@
     "type" : "container",
     "sub_type" : "configuration",
     "id" : "pt.hive.colony.configuration.development.console_interface",
-    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "configuration_id" : "pt.hive.colony.plugins.resources.manager",
     "name" : "Console Interface Development Configuration",
     "short_name" : "Console Interface Development",
     "description" : "The console interface configuration for the development profile",

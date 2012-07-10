@@ -2,7 +2,7 @@
     "type" : "container",
     "sub_type" : "configuration",
     "id" : "pt.hive.colony.configuration.development.service_http",
-    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "configuration_id" : "pt.hive.colony.plugins.resources.manager",
     "name" : "Service Http Development Configuration",
     "short_name" : "Service Http Development",
     "description" : "The service http configuration for the development profile",

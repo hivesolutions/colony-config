@@ -1,15 +1,15 @@
 {
     "type" : "container",
     "sub_type" : "configuration",
-    "id" : "pt.hive.colony.configuration.all.format_mime",
-    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "id" : "pt.hive.colony.configuration.all.mime",
+    "configuration_id" : "pt.hive.colony.plugins.resources.manager",
     "name" : "Format Mime All Configuration",
     "short_name" : "Format Mime All",
-    "description" : "The format mime configuration for the all profile",
+    "description" : "The mime configuration for the all profile",
     "version" : "1.0.0",
     "author" : "Hive Solutions Lda. <development@hive.pt>",
     "dependencies" : [],
-    "resources" : ["configuration/format_mime/configuration.py",
-            "configuration/format_mime/resources.xml"],
-    "extra_resources" : ["configuration/format_mime/configuration.pyc"]
+    "resources" : ["configuration/mime/configuration.py",
+            "configuration/mime/resources.xml"],
+    "extra_resources" : ["configuration/mime/configuration.pyc"]
 }

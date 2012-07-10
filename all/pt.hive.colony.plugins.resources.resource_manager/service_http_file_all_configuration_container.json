@@ -2,7 +2,7 @@
     "type" : "container",
     "sub_type" : "configuration",
     "id" : "pt.hive.colony.configuration.all.service_http_file",
-    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "configuration_id" : "pt.hive.colony.plugins.resources.manager",
     "name" : "Service Http File All Configuration",
     "short_name" : "Service Http File All",
     "description" : "The service http file configuration for the all profile",

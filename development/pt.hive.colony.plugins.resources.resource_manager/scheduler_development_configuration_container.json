@@ -2,7 +2,7 @@
     "type" : "container",
     "sub_type" : "configuration",
     "id" : "pt.hive.colony.configuration.development.scheduler",
-    "configuration_id" : "pt.hive.colony.plugins.resources.resource_manager",
+    "configuration_id" : "pt.hive.colony.plugins.resources.manager",
     "name" : "Scheduler Development Configuration",
     "short_name" : "Scheduler Development",
     "description" : "The scheduler configuration for the development profile",
