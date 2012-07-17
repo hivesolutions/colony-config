@@ -78,7 +78,7 @@ configuration = {
             "/"
         ],
         "/manager" : {
-            "target" : "/colony_dynamic/rest/mvc/web_mvc_manager/",
+            "target" : "/dynamic/rest/mvc/nanger/",
             "recursive_redirection" : True
         },
         "/" : {
@@ -88,8 +88,7 @@ configuration = {
     },
     "contexts" : {
         "resolution_order" : [
-            "/colony_manager",
-            "/colony_dynamic",
+            "/dynamic",
             "/welcome_handler",
             "/system_information_handler",
             "/system_information",
@@ -101,12 +100,7 @@ configuration = {
             "/system_unix",
             "/system_windows"
         ],
-        "/colony_manager" : {
-            "handler" : "colony",
-            "allow_redirection" : False,
-            "request_properties" : {}
-        },
-        "/colony_dynamic" : {
+        "/dynamic" : {
             "handler" : "colony",
             "allow_redirection" : False,
             "request_properties" : {}
