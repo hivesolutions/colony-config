@@ -58,6 +58,6 @@
         <namespace>system.database</namespace>
         <name>file_name</name>
         <type>string</type>
-        <data>development_database.db</data>
+        <data>development.db</data>
     </resource>
 </resources>
