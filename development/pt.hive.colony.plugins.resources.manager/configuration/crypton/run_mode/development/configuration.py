@@ -42,9 +42,6 @@ configuration = {
         "colony_default" : {
             "private_key" : "%configuration:pt.hive.colony.plugins.crypton%/private.pem",
             "public_key" : "%configuration:pt.hive.colony.plugins.crypton%/public.pem"
-        },
-        "at" : {
-            "public_key" : "%configuration:pt.hive.colony.plugins.crypton%/at.pem"
         }
     },
     "security" : {
