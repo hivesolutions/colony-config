@@ -75,10 +75,15 @@ configuration = {
     "redirections" : {
         "resolution_order" : [
             "/manager",
+            "/mvc",
             "/"
         ],
         "/manager" : {
             "target" : "/dynamic/rest/mvc/nanger/",
+            "recursive_redirection" : True
+        },
+        "/mvc" : {
+            "target" : "/dynamic/rest/mvc/",
             "recursive_redirection" : True
         },
         "/" : {
