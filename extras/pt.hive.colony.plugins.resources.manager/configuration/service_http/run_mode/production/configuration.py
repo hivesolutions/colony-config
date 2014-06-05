@@ -110,7 +110,7 @@ configuration = {
             "handler" : "file",
             "allow_redirection" : False,
             "request_properties" : {
-                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.welcome}/service_http/welcome/resources",
+                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.welcome}/service_http_welcome/resources",
                 "default_page" : "welcome.html"
             }
         },
@@ -118,14 +118,14 @@ configuration = {
             "handler" : "file",
             "allow_redirection" : False,
             "request_properties" : {
-                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_error}/service_http/template_error/resources"
+                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_error}/service_http_template_error/resources"
             }
         },
         "/template_directory_handler" : {
             "handler" : "file",
             "allow_redirection" : False,
             "request_properties" : {
-                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_directory}/service_http/template_directory/resources"
+                "base_path" : "$plugin{pt.hive.colony.plugins.service.http.template_directory}/service_http_template_directory/resources"
             }
         }
     }
