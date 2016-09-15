@@ -1,0 +1,16 @@
+sudo: false
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "nightly"
+  - "pypy"
+  - "pypy3"
+env:
+  - secure: InlBTWsq9jULWigQKuKbg2E2uNn2ezNowBys9dGovv1snnV6j/SHyFePreSj8nQpwXrVB7FwITnCblLTkbJeZVoga3zZX2JYeYeTVPQ5iFmPaeC/ITEz9KdWrIk2nLNPEklIqyYVgmkgS2w8rIkMiGJIvCHjSV0B6z0d1CZuX0g=
+after_success:
+  - if [[ $TRAVIS_PYTHON_VERSION == "2.7" ]]; then REPO_URL_COLONY="https://colony.bemisc.com/" REPO_USERNAME=root cpm upload "./*/*/*_plugin.py" colony; fi
