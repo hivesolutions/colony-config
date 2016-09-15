@@ -13,6 +13,6 @@ python:
 install: pip install colony
 env:
   - secure: iQ5ZqP3LRClPzhVInaGqDJW0mQ/vjDylKVSxYEwoyw1F6o4WPGEhmOxEmdBT1L6YJ3mKhg45PBUKaBrQTeXTsJytWCP9gD8pFDUVaD9Lr3CQvag5sG9R5fLHVwme/AABUscgvLh8rUP6bMXgXZH2US4njszXfdR7wmOvM5PCh+o=
-scipt: echo ""
+script: echo ""
 after_success:
   - if [[ $TRAVIS_PYTHON_VERSION == "2.7" ]]; then REPO_URL_COLONY="https://colony.bemisc.com/" REPO_USERNAME=root cpm upload "./*" colony; fi
