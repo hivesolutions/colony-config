@@ -10,6 +10,7 @@ python:
   - "nightly"
   - "pypy"
   - "pypy3"
+install:
 env:
   - secure: iQ5ZqP3LRClPzhVInaGqDJW0mQ/vjDylKVSxYEwoyw1F6o4WPGEhmOxEmdBT1L6YJ3mKhg45PBUKaBrQTeXTsJytWCP9gD8pFDUVaD9Lr3CQvag5sG9R5fLHVwme/AABUscgvLh8rUP6bMXgXZH2US4njszXfdR7wmOvM5PCh+o=
 after_success:
