@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Hive Colony Framework
-# Copyright (c) 2008-2020 Hive Solutions Lda.
+# Copyright (c) 2008-2025 Hive Solutions Lda.
 #
 # This file is part of Hive Colony Framework.
 #
@@ -22,48 +22,32 @@
 __author__ = "João Magalhães <joamag@hive.pt>"
 """ The author(s) of the module """
 
-__version__ = "1.0.0"
-""" The version of the module """
-
-__revision__ = "$LastChangedRevision$"
-""" The revision number of the module """
-
-__date__ = "$LastChangedDate$"
-""" The last change date of the module """
-
-__copyright__ = "Copyright (c) 2008-2020 Hive Solutions Lda."
+__copyright__ = "Copyright (c) 2008-2025 Hive Solutions Lda."
 """ The copyright for the module """
 
 __license__ = "Apache License, Version 2.0"
 """ The license for the module """
 
 configuration = {
-    "default_end_points" : [
-        (
-            "normal", "", 25, {}
-        )
-    ],
-    "default_handler" : "stream",
-    "default_authentication_handler" : "main",
-    "default_session_handler" : "main",
-    "authentication_properties" : {
-        "authentication_handler" : "python",
-        "arguments" : {
-            "file_path" : "%configuration:pt.hive.colony.plugins.authentication.python%/authentication.py"
-        }
+    "default_end_points": [("normal", "", 25, {})],
+    "default_handler": "stream",
+    "default_authentication_handler": "main",
+    "default_session_handler": "main",
+    "authentication_properties": {
+        "authentication_handler": "python",
+        "arguments": {
+            "file_path": "%configuration:pt.hive.colony.plugins.authentication.python%/authentication.py"
+        },
     },
-    "session_properties" : {
-        "local_domains" : (
-            "127.0.0.1",
-            "localhost"
-        ),
-        "arguments" : {
-            "entity_manager_arguments" : {
-                "connection_parameters" : {
-                    "file_path" : "%configuration:pt.hive.colony.plugins.mail.storage%/messages.db",
-                    "autocommit" : False
+    "session_properties": {
+        "local_domains": ("127.0.0.1", "localhost"),
+        "arguments": {
+            "entity_manager_arguments": {
+                "connection_parameters": {
+                    "file_path": "%configuration:pt.hive.colony.plugins.mail.storage%/messages.db",
+                    "autocommit": False,
                 }
             }
-        }
-    }
+        },
+    },
 }
