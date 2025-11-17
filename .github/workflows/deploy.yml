@@ -1,0 +1,22 @@
+name: Deploy Workflow
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        python-version: [2.7]
+    runs-on: ubuntu-latest
+    container: python:${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python --version
+      - run: cpm upload "./*" colony
+        env:
+          REPO_URL_COLONY: https://colony.bemisc.com/
+          REPO_USERNAME: ${{ secrets.COLONY_REPO_USERNAME }}
+          REPO_PASSWORD: ${{ secrets.COLONY_REPO_PASSWORD }}
